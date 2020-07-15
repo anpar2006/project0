@@ -1,0 +1,25 @@
+.titletop {
+text-align: center;
+background-color: darkblue;
+padding: 5px;
+}
+.info {
+text-align: left;
+font-family: sans-serif;
+font-size: 20px;
+}
+ul {
+font-size: 18px;
+font-family: sans-serif;
+}
+#AJ1 {
+width: 40%;
+}
+.navbar {
+font-size: 20px;
+padding: 0.5%;
+margin: 0.5%;
+}
+.img {
+width: 10%;
+}
