@@ -29,3 +29,7 @@ table{
 th, td {
   border: 1px solid black;
 }
+.col-sm{
+  background-color: grey;
+  text-align: center;
+}
