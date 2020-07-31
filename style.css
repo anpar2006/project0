@@ -1,35 +1,60 @@
-.titletop {
-text-align: center;
-background-color: darkblue;
-padding: 5px;
+@media (min-width: 1000px) {
+  body {
+    background-color: cadetblue;
+  }
 }
-h1 {
+@media (max-width: 999px) {
+  body {
+    background-color: grey;
+  }
+}
+.titletop {
+  background-color: darkblue;
+  padding: 5px;
+}
+.titletop h1 {
+  text-align: center;
   color: black;
 }
+
+.info-basic, .col-info, .info {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
 .info {
-text-align: left;
-font-family: sans-serif;
-font-size: 20px;
+  text-align: left;
 }
+
+.col-info {
+  text-align: center;
+}
+
 ul {
-font-size: 18px;
-font-family: sans-serif;
+  font-size: 18px;
+  font-family: sans-serif;
 }
+
 #AJ1 {
-width: 40%;
+  width: 40%;
 }
+
 .img {
-width: 10%;
+  width: 10%;
 }
-table{
+
+table {
   border: 2px solid black;
   text-align: center;
   margin: 2%;
 }
+
 th, td {
   border: 1px solid black;
 }
-.col-sm{
-  background-color: grey;
+
+.col-sm {
   text-align: center;
 }
+
+/*# sourceMappingURL=style.css.map */
